@@ -15,9 +15,9 @@
 height: 100%;
 width: 0;
 position: fixed;
-top: 140px;
+top: 120px;
 left: 0;
-margin-left: 10px;
+margin-left: 8px;
 
 overflow-x: hidden;
 transition: 0.5s;
@@ -37,12 +37,12 @@ cursor: pointer;
 transition: margin-left .5s;
 margin-top: 140px;
 height:80% ;
-width: 80 %;
+width: 80%;
 padding-right: 20px;
 overflow-y: auto;
 }
 #blink {
-            font-size: 20px;
+            font-size: 30px;
             font-weight: bold;
             color: #2d38be;
             transition: 0.5s;
@@ -52,6 +52,19 @@ overflow-y: auto;
 top: 0;
 
 }
+.footer {
+   position: fixed;
+   margin-left: 20px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+   background-color: #AFE036;
+   opacity:80% ;
+   color: white;
+   text-align: center;
+}
+
 
 </style>
 </head>
@@ -70,7 +83,7 @@ top: 0;
 
 <div> <a href="Dire.html" style="text-decoration:none">Director message</a> </div>
 
-<div> <a href="achieve.html" style="text-decoration:none">News</a> </div>
+<div id="blink" style="color: red;"> <a href="achieve.html" style="text-decoration:none;color: red;">Recent Achivements</a> </div>
 
 <div> <a href="Team.html" style="text-decoration:none">PTP Team</a> </div>
 
@@ -84,59 +97,57 @@ top: 0;
 
 <div> <a href="list of Companies visited.pdf" style="text-decoration:none"> Past Recruiters</a> </div>
 
-<div> <a href="FR.html" style="text-decoration:none">Facility of Recruiters</a> </div>
+<div> <a href="FR.html" style="text-decoration:none">Facility to  Recruiters</a> </div>
 
 <div> <a href="cu.html" style="text-decoration:none">Contact Us</a> </div>
 
 
-
 </div>
 
-<!--
-    <ul class="nav">
-  <li><a href="index.html">Home</a></li>
-<li><a href="Dire.html">Director message</a></li>
-  <li><a href="PP.html">Placement Procedure</a></li>
-  <li><a href="https://drive.google.com/file/d/1FqgH0HS8m25q5CHYueThd_FaaDH0oXfK/view">Placement Brochure</a></li>
-  <li><a href="PR.html">Placement Record</a></li>
-  <li><a href="#">Prominent Recruiters</a></li>
-<li><a href="#">List of Past Recruiters</a></li>
-<li><a href="Team.html">Facility for Recruiters @NITUK</a></li>
-<li><a href="cu.html">Contact Us</a></li>
-<li><a href="achieve">Prominent Recruiters</a></li>
-</ul> -->
-
-
-</br>
-
 <div id="main"  >
-    <div style=" height: 800px; z-index: 1; left: 71px;  id="layer1" align="justify">
+    <div style="  z-index: 1; left: 71px;  id="layer1" align="justify">
 
 <hr text-align: justify>
 
 
-
-<h1 style="color: brown; bold">Office of the Practical Training and Placement (PTP) Section
+<h1 style="color: brown; bold" align="center">Office of the Practical Training and Placement (PTP) Section
 </h1>
+
 <hr>
 <p id="blink"> Kindly accept our best Greetings from National Institute of Technology Uttarakhand (NITUK)!!! </p>
 
-
-<p align="justify" >
+<p align="justify"  style="font-size: 27px;">
 We take this profound opportunity to invite your esteemed organization to participate in our campus placement process for the session 2022-23. NITUK is one among the ten newly established NITs in 2010 by the The Ministry of Education (Shiksha Mantralaya), Government of India. NITUK is Technical Education Hub of our Green and Clean environment in the state of Uttarakhand and it provides peaceful and serene environment for the academic development. The Institute admits students to B.Tech. courses through Joint Entrance Examination (JEE) Mains (formerly known as AIEEE) and to M. Tech. courses through Graduate Aptitude Test in Engineering (GATE), both the examinations conducted all over India by National Testing Agency (NTA). Over a decay, the Institute has made its place amongst the leading technical institutions of the country and secured <b>186</b> rank in National Institute of Ranking Framework (NIRF) in 2021 in spite of the remote location of the institute. Institute offers B.Tech programs in Civil Engineering, Computer Science and Engineering,  Electronics and Communication Engineering, Electrical and Electronics Engineering and Mechanical Engineering, M. Tech in all Engineering programs and also offers Ph. D. in Engineering, Sciences and Humanities. Excellent teaching learning ambience, young and dedicated faculty, significant contribution to research work and commitment to the community are our hallmark.
 </p>
-</br>
-We are highly grateful that you aim to get a long lasting association with NIT Uttarakhand for recruiting our students towards the growth of industry, academia and Nation itself.
-</br>
-</br>
 
+<p align="justify"  style="font-size: 27px;">
+We are highly grateful that you aim to get a long lasting association with NIT Uttarakhand for recruiting our students towards the growth of industry, academia and Nation itself.</p>
+
+<p align="justify"  style="font-size: 27px;">
 With Warm regards,</br>
 Office of the Practical Training and Placement </br>
 National Institute Technology, Uttarakhand </br>
-Email: tnpnituk@nituk.ac.in </br>
-Phone No.: +91-1346-257412/425
+Email: <a href="tnpnituk@nituk.ac.in">tnpnituk@nituk.ac.in</a> </br>
+Phone No.: +91-1346-257412/425</p>
+
 <hr>
 </div>
+
+<div class="footer">
+    <div align="left" style="padding: 20px;" > 
+        <a href="JNF&INF 2022-23.docx" style="text-decoration:none; font-size: 20px;"> JNF&INF 2022-23 </a>
+        <br>
+        <a href="Placement Policy-2019-2023.pdf" style="text-decoration:none; font-size:20px;">Placement Policy-2019-2023 </a>
+    </div>
+    <div> 
+
+    </div>
+    <div> 
+
+    </div>
+  
+</div>
+
 </div>
 
 <script>
@@ -153,17 +164,3 @@ var blink = document.getElementById('blink');
 </body>
 </html>
 
-
-<!--
-    <ul class="nav">
-  <li><a href="index.html">Home</a></li>
-<li><a href="Dire.html">Director message</a></li>
-  <li><a href="PP.html">Placement Procedure</a></li>
-  <li><a href="https://drive.google.com/file/d/1FqgH0HS8m25q5CHYueThd_FaaDH0oXfK/view">Placement Brochure</a></li>
-  <li><a href="PR.html">Placement Record</a></li>
-  <li><a href="#">Prominent Recruiters</a></li>
-<li><a href="#">List of Past Recruiters</a></li>
-<li><a href="Team.html">Facility for Recruiters @NITUK</a></li>
-<li><a href="cu.html">Contact Us</a></li>
-<li><a href="achieve">Prominent Recruiters</a></li>
-</ul> --?>
