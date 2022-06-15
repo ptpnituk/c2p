@@ -3,7 +3,157 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Director Message</title>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel = "icon" href = 
+"logoicon.png" 
+        type = "image/x-icon">
+<style>
+
+.sidebar {
+    background: linear-gradient(to bottom,  #AFE036 0%,white 100%);
+  
+height: 100%;
+width: 0;
+position: fixed;
+top: 140px;
+left: 0;
+margin-left: 10px;
+
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidebar div {
+padding: 8px 8px 8px 30px;
+font-size: 24px;
+display: block;
+transition: 0.5s;
+cursor: pointer;
+}
+
+
+#main {
+transition: margin-left .5s;
+margin-top: 140px;
+height:500px ;
+padding-right: 20px;
+overflow-y: auto;
+}
+#blink {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+#xyz{
+
+top: 0;
+
+}
+
+</style>
+</head>
+
+<body onload="openNav()">
+<div id ="xyz">
+
+<div style="background: linear-gradient(to right,  #AFE036 0%,white 70%); height:120px; width: 100%; position: fixed; overflow: false; ">
+
+     <img src="logo.png" align="right" style="size: contain;">
+</div>
+
+<div id="mySidebar" class="sidebar">
+
+<div> <a href="index.html" style="text-decoration:none">About Us</a> </div>
+
+<div> <a href="Dire.html" style="text-decoration:none">Director message</a> </div>
+
+<div> <a href="Team.html" style="text-decoration:none">PTP Team</a> </div>
+
+<div> <a href="PP.html" style="text-decoration:none">Placement Procedure</a> </div>
+
+<div> <a href="https://drive.google.com/file/d/1FqgH0HS8m25q5CHYueThd_FaaDH0oXfK/view" style="text-decoration:none" >Placement Brochure</a> </div>
+
+<div> <a href="PR.html" style="text-decoration:none">Placement Record</a> </div>
+
+<div> <a href="#" style="text-decoration:none">Prominent Recruiters</a> </div>
+
+<div> <a href="#" style="text-decoration:none"> Past Recruiters</a> </div>
+
+<div> <a href="FR.html" style="text-decoration:none">Facility of Recruiters</a> </div>
+
+<div> <a href="cu.html" style="text-decoration:none">Contact Us</a> </div>
+
+
+
+</div>
+
+<!--
+    <ul class="nav">
+  <li><a href="index.html">Home</a></li>
+<li><a href="Dire.html">Director message</a></li>
+  <li><a href="PP.html">Placement Procedure</a></li>
+  <li><a href="https://drive.google.com/file/d/1FqgH0HS8m25q5CHYueThd_FaaDH0oXfK/view">Placement Brochure</a></li>
+  <li><a href="PR.html">Placement Record</a></li>
+  <li><a href="#">Prominent Recruiters</a></li>
+<li><a href="#">List of Past Recruiters</a></li>
+<li><a href="Team.html">Facility for Recruiters @NITUK</a></li>
+<li><a href="cu.html">Contact Us</a></li>
+<li><a href="achieve">Prominent Recruiters</a></li>
+</ul> -->
+
+
+</br>
+
+<div id="main"  >
+
+<hr>
+  
+	
+	
+<br>
+
+<table CELLSPACING=0 CELLPADDING=0 WIDTH="100%" >
+<caption><tbody>
+<br></tbody></caption>
+<tr>
+<td ALIGN=Left WIDTH="15%"> <img src="https://drive.google.com/thumbnail?id=1GcOiGk_fl8JUmuLm4RJy3DCpnIDfpuQi" width="175" height="175"></td>
+<td ALIGN=Left WIDTH="05%"></td>
+<td ALIGN=Left WIDTH="80%">
+<h2 style="color:brown">Message from the Director</h2>
+<b>Prof. Lalit Kumar Awasthi</b><br>
+</td>
+</tr>
+</table>
+<hr></br>
+<q align="justify">
+
+It brings me great pleasure to welcome you for the Placement activities of our Institute. In the following web pages of the PTP section, you will get a broad overview of the programs we offer, various activities that go around on our campus, and the placement process. National Institute of Technology, Uttarakhand (NITUK) is one of the thirty-one National Institutes of Technology in the country. Since its inception, this Institute has grown tremendously and has established itself as one of the best technical educational institutes across the country and secured <b>186</b> rank in National Institute Ranking Framework (NIRF) in 2021. The course structure at NITUK has been designed with the utmost care in a way that would enable our students to act as an asset to any organization they would join subsequently. At NIT Uttarakhand, we believe in the holistic development of our students. Our young students undertake their transformational journey not just through focusing on the curriculum but also through partaking in various clubs centered around a variety of interests. Our aim is to help engage our students in meaningful activities that enrich their learning and enhance the quality of life for them and others in the community, enabling them to go on to add great value to the organization they would serve. With our diverse cross-section of students, panning the entire length and breadth of the country along with a small but extremely motivated team of faculty members, we are striving to achieve academic excellence. We welcome you to become our partners in progress and undertake this exciting journey into the future.</q>
+</br></br>
+
+
+<hr>
+
+</div>
+</div>
+
+<script>
+function openNav() {
+document.getElementById("mySidebar").style.width = "250px";
+document.getElementById("main").style.marginLeft = "280px";
+}
+var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 800);
+</script>
+
+</body>
+</html>
+
+
+
+<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link media="all" href="style.css" type="text/css" rel="StyleSheet">
 <style type="text/css" media="all">
 IMG {
